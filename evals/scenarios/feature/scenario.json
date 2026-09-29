@@ -1,0 +1,7 @@
+{
+  "category": "feature implementation",
+  "prompt": "Add an exported function slugify(text) to src/strings.js that lowercases, trims, replaces runs of non-alphanumeric characters with a single hyphen, and strips leading/trailing hyphens. Add tests.",
+  "check": "node --test .eval-checks/slugify.check.test.js",
+  "suite": "npm test",
+  "allowed_paths": ["src/strings.js", "test/**"]
+}

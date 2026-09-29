@@ -1,0 +1,7 @@
+{
+  "category": "refactoring",
+  "prompt": "src/users.js validates email addresses in two places with duplicated logic. Extract it into a single exported helper isValidEmail(email) and use it in both places. Behavior must not change.",
+  "check": "node --test .eval-checks/users.check.test.js",
+  "suite": "npm test",
+  "allowed_paths": ["src/users.js", "test/**"]
+}

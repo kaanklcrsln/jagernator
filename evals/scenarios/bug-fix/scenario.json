@@ -1,0 +1,7 @@
+{
+  "category": "bug fix",
+  "prompt": "Customers report that cart totals are wrong when a percentage discount code is applied. Find and fix the bug.",
+  "check": "node --test .eval-checks/cart.check.test.js",
+  "suite": "npm test",
+  "allowed_paths": ["src/cart.js", "test/**"]
+}

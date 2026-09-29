@@ -1,0 +1,6 @@
+{
+  "category": "test failure",
+  "prompt": "npm test is failing. Make it pass without weakening the tests.",
+  "check": "npm test && node --test .eval-checks/format.check.test.js",
+  "allowed_paths": ["src/format.js"]
+}

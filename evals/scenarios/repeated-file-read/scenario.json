@@ -1,0 +1,6 @@
+{
+  "category": "repeated file read",
+  "prompt": "Rename the configuration option timeoutMs to requestTimeoutMs everywhere it is used (code, tests and README).",
+  "check": "npm test && node .eval-checks/rename.check.js",
+  "allowed_paths": ["src/**", "test/**", "README.md"]
+}

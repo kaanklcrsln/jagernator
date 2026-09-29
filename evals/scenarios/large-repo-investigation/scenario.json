@@ -1,0 +1,7 @@
+{
+  "category": "large repository investigation",
+  "prompt": "Which file defines the function that computes tax for invoices? Do not change any code. Write only its repository-relative path into ANSWER.txt.",
+  "generate": "generate.js",
+  "check": "node .eval-checks/answer.check.js",
+  "allowed_paths": ["ANSWER.txt"]
+}

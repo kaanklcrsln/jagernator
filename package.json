@@ -1,0 +1,35 @@
+{
+  "name": "jagernator",
+  "version": "0.1.0",
+  "description": "Engineering harness for AI coding agents: disciplined workflows, on-demand skills, incremental context, verification loops, and security-aware execution.",
+  "type": "module",
+  "bin": {
+    "jagernator": "bin/jagernator.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "policies",
+    "skills",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node scripts/check.js",
+    "eval": "node evals/run.js"
+  },
+  "keywords": [
+    "ai",
+    "coding-agent",
+    "claude-code",
+    "codex",
+    "harness",
+    "security"
+  ],
+  "license": "MIT"
+}

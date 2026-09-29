@@ -1,0 +1,7 @@
+{
+  "category": "security issue",
+  "prompt": "A security report says src/uploads.js allows reading files outside the uploads directory. Fix the vulnerability and add a regression test.",
+  "check": "node --test .eval-checks/uploads.check.test.js",
+  "suite": "npm test",
+  "allowed_paths": ["src/uploads.js", "test/**"]
+}
